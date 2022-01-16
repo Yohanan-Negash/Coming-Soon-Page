@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-weight: bold;
+  background: linear-gradient(#0575e6, #021b79);
+  font-family: 'Saira Condensed', sans-serif;
+  color: white;
+}
+h1 {
+  font-size: 60px;
+}
+h3 {
+  margin-top: 15px;
+  font-size: 40px;
+}
+a {
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  background: #132c86;
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+a:hover {
+  transform: scale(1.2);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
